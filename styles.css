@@ -29,11 +29,11 @@ body {
     display: flex;
     
     width: 100vw;
-
+    height:100vw;
     /* flex-direction: column; */
-    height: 100vw;
+    
     justify-content:left;
-    align-items: center;
+    align-items: baseline;
     /* background-size: contain; */
     background-size: cover;
     
@@ -54,10 +54,11 @@ body {
     display: hidden;
 }
 .container {
-    background: rgba(255, 255, 255, 0.8);
+
+    background: rgba(255, 255, 255, 0.5);
     width: auto;
     height: auto;
-    padding: 0px;
+    margin-top: 20%;
     border-radius: 0px;
     text-align: center;
 }

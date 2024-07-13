@@ -27,8 +27,8 @@ function adjustDivWidth() {
       var divslength= divs.length;
       for (i=0; i<divslength;i++) {
         // Set the width to 80vw
-        divs[i].style.width = '80vw';
-        divs[i].style.height='80vw';
+        divs[i].style.width = '67vw';
+        divs[i].style.height='67vw';
       }
     }
 }
@@ -87,7 +87,7 @@ function myBackFunction1(){
 // }
 function myFunction2(){
     document.getElementById('classes').style.visibility='hidden';
-    document.getElementById('2').style.backgroundImage="url('bilder/square21.png')";
+    document.getElementById('2').style.backgroundImage="url('bilder/square21.jpg')";
     document.getElementById('2').removeEventListener('click',myFunction2);
     
     document.getElementById('2').addEventListener('click',myBackFunction2);
