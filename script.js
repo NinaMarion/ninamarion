@@ -23,14 +23,14 @@ function adjustDivWidth() {
     // Check if width is greater than height
     if (screenWidth > screenHeight) {
       // Get the div with id '1'
-      var cons= document.getElementsByClassName('container');
+      //var cons= document.getElementsByClassName('container');
       var divs = document.getElementsByClassName('clickable');
       var divslength= divs.length;
       for (i=0; i<divslength;i++) {
         // Set the width to 80vw
         divs[i].style.width = '67vw';
         divs[i].style.height='67vw';
-        cons[i].style.marginTop='14vw';
+        //cons[i].style.margin_top='14vw';
       }
     }
 }
