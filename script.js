@@ -27,7 +27,7 @@ function adjustDivWidth() {
       var divs = document.getElementsByClassName('clickable');
       var divslength= divs.length;
       
-      console.log(divslength+"cons"+cons.length);
+      
       for (i=0; i<divslength;i++) {
         // Set the width to 80vw
         divs[i].style.width = '67vw';
