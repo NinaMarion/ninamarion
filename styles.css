@@ -3,13 +3,8 @@ body {
     background: rgba(255, 255, 255, 0.8);
     margin-left: auto;
     margin-right: auto;
-    /* height: 100vh; */
-    /* background: url('back.png') no-repeat center center fixed; */
-    /* background-size: cover; */
+    
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: monospace;
     }
 .motherdiv{
@@ -25,12 +20,11 @@ body {
 }
 .clickable {
     cursor: pointer;
-    /* background: url('back.png') no-repeat center center fixed; */
     display: flex;
     
     width: 100vw;
     height:100vw;
-    /* flex-direction: column; */
+    
     
     justify-content:left;
     /*align-items: baseline;*/
@@ -38,17 +32,9 @@ body {
     background-size: cover;
     
     font-family:didot;
-    /* background-size: cover; */
+    
 }
-/* .textfield{
-    background: rgba(255, 255, 255, 0.8);
-    width: 100vw;
-    height: 33px;
-    padding: 0px;
-    border-radius: 0px;
-    position: absolute;
-    bottom: 0px; 
-} */
+
 .hidden{
    
     display: hidden;
