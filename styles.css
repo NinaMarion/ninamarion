@@ -22,10 +22,10 @@ body {
     cursor: pointer;
     display: flex;
     
-    width: 100vw;
+    width: 90vw;
     height:100vw;
     
-    margin-bottom: 24vw;
+    margin-bottom: 12vw;
     justify-content:left;
     /*align-items: baseline;*/
     /* background-size: contain; */
