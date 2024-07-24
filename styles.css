@@ -41,7 +41,7 @@ body {
 }
 .container {
 
-    background: rgba(251, 250, 249, 0.4);
+    background: rgba(251, 250, 249, 0.5);
     width:inherit;
     height:fit-content;
     margin-top: 80vw;
