@@ -52,6 +52,7 @@ document.getElementById('3').style.backgroundImage="url('bilder/square3.jpg')";
 document.getElementById('4').style.backgroundImage="url('bilder/square4.jpg')";
 document.getElementById('5').style.backgroundImage="url('bilder/square5.jpg')";
 document.getElementById('6').style.backgroundImage="url('bilder/square6.jpg')";
+document.getElementById('7').style.backgroundImage="url('bilder/square0.jpg')";
 
 document.getElementById('1').addEventListener('click',myFunction1);
 document.getElementById('2').addEventListener('click',myFunction2);
@@ -60,7 +61,7 @@ document.getElementById('4').addEventListener('click',myFunction4);
 document.getElementById('5').addEventListener('click',myFunction5);
 document.getElementById('6').addEventListener('click',myFunction6);
 
-
+document.getElementById('7').addEventListener('click',myFunction7);
 
 function myFunction1(){
     document.getElementById('1').style.backgroundImage="url('bilder/square11.jpg')";
@@ -162,6 +163,10 @@ function myBackFunction6(){
     document.getElementById('courses').style.visibility='visible';
 }
 
+
+function myFunction7(){
+    window.open('www.instagram.com/nina_marion_/','_blank').focus();
+}
 // document.addEventListener('DOMContentLoaded', () => {
 //     document.querySelectorAll('.clickable').forEach(div => {
 //         div.addEventListener('click', (event) => {
