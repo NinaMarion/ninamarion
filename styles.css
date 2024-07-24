@@ -25,7 +25,7 @@ body {
     width: 100vw;
     height:100vw;
     
-    margin-bottom: 8vw;
+    margin-bottom: 12vw;
     justify-content:left;
     /*align-items: baseline;*/
     /* background-size: contain; */
@@ -54,8 +54,8 @@ h1 {
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    color: #412920;
-    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-family: didot;
 
 }
 
