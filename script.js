@@ -1,20 +1,4 @@
-// document.getElementById('paymentForm').addEventListener('submit', function(event) {
-//     event.preventDefault();
 
-//     const amount = document.getElementById('amount').value;
-//     if (!amount) {
-//         alert('Please enter a valid amount.');
-//         return;
-//     }
-
-//     // Replace with your Dogecoin address
-//     const dogecoinAddress = 'YOUR_DOGECOIN_ADDRESS_HERE';
-    
-//     const paymentUrl = `dogecoin:${dogecoinAddress}?amount=${amount}`;
-    
-//     // Display the Dogecoin payment URL
-//     window.location.href = paymentUrl;
-// });
 function adjustDivWidth() {
     // Get the screen width and height
     var screenWidth = window.innerWidth;
