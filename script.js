@@ -16,11 +16,13 @@ function adjustDivWidth() {
         // Set the width to 80vw
         divs[i].style.width = '67vw';
         divs[i].style.height='67vw';
+        divs[i].style.marginBottom='12vw';
         if (i<cons.length) {
         cons[i].style.marginTop='45vw';
         }
       }
     }
+
 }
   
   // Call the function when the page loads
