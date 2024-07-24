@@ -165,7 +165,7 @@ function myBackFunction6(){
 
 
 function myFunction7(){
-    window.open('www.instagram.com/nina_marion_/','_blank').focus();
+    window.open('https://instagram.com/nina_marion_/','_blank').focus();
 }
 // document.addEventListener('DOMContentLoaded', () => {
 //     document.querySelectorAll('.clickable').forEach(div => {
