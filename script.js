@@ -107,11 +107,12 @@ function myMiddleFunction3(){
     document.getElementById('3').addEventListener('click',myBackFunction3);
 }
 function myBackFunction3(){
-    document.getElementById('name').style.visibility='visible';
+    window.location.reload();
+    /*document.getElementById('name').style.visibility='visible';
     document.getElementById('3').style.backgroundImage="url('bilder/square3.jpg')";
     document.removeEventListener('click',myBackFunction3);
     document.getElementById('3').addEventListener('click',myFunction3);
-    
+    */
 }
 function myFunction4(){
     document.getElementById('sessions').style.visibility='hidden';
