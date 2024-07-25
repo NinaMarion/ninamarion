@@ -38,7 +38,8 @@ document.getElementById('3').style.backgroundImage="url('bilder/square3.jpg')";
 document.getElementById('4').style.backgroundImage="url('bilder/square4.jpg')";
 document.getElementById('5').style.backgroundImage="url('bilder/square5.jpg')";
 document.getElementById('6').style.backgroundImage="url('bilder/square6.jpg')";
-document.getElementById('7').style.backgroundImage="url('bilder/square0.jpg')";
+document.getElementById('7').style.backgroundImage="url('bilder/square7.jpg')";
+document.getElementById('8').style.backgroundImage="url('bilder/square0.jpg')";
 
 document.getElementById('1').addEventListener('click',myFunction1);
 document.getElementById('2').addEventListener('click',myFunction2);
@@ -46,8 +47,8 @@ document.getElementById('3').addEventListener('click',myFunction3);
 document.getElementById('4').addEventListener('click',myFunction4);
 document.getElementById('5').addEventListener('click',myFunction5);
 document.getElementById('6').addEventListener('click',myFunction6);
-
 document.getElementById('7').addEventListener('click',myFunction7);
+document.getElementById('8').addEventListener('click',myFunction8);
 
 function myFunction1(){
     document.getElementById('1').style.backgroundImage="url('bilder/square11.jpg')";
@@ -129,7 +130,7 @@ function myBackFunction4(){
     document.getElementById('sessions').style.visibility='visible';
 }
 function myFunction5(){
-    document.getElementById('events').style.visibility='hidden';
+    document.getElementById('moon').style.visibility='hidden';
     document.getElementById('5').style.backgroundImage="url('bilder/square51.png')";
     document.getElementById('5').removeEventListener('click',myFunction5);
     
@@ -140,10 +141,10 @@ function myBackFunction5(){
     document.getElementById('5').style.backgroundImage="url('bilder/square5.jpg')";
     document.removeEventListener('click',myBackFunction5);
     document.getElementById('5').addEventListener('click',myFunction5);
-    document.getElementById('events').style.visibility='visible';
+    document.getElementById('moon').style.visibility='visible';
 }
 function myFunction6(){
-    document.getElementById('courses').style.visibility='hidden';
+    document.getElementById('events').style.visibility='hidden';
     document.getElementById('6').style.backgroundImage="url('bilder/square61.png')";
     document.getElementById('6').removeEventListener('click',myFunction6);
     
@@ -154,11 +155,24 @@ function myBackFunction6(){
     document.getElementById('6').style.backgroundImage="url('bilder/square6.jpg')";
     document.removeEventListener('click',myBackFunction6);
     document.getElementById('6').addEventListener('click',myFunction6);
-    document.getElementById('courses').style.visibility='visible';
+    document.getElementById('events').style.visibility='visible';
 }
 
-
 function myFunction7(){
+    document.getElementById('courses').style.visibility='hidden';
+    document.getElementById('7').style.backgroundImage="url('bilder/square71.png')";
+    document.getElementById('7').removeEventListener('click',myFunction7);
+    
+    document.getElementById('7').addEventListener('click',myBackFunction7);
+
+}
+function myBackFunction7(){
+    document.getElementById('7').style.backgroundImage="url('bilder/square7.jpg')";
+    document.removeEventListener('click',myBackFunction7);
+    document.getElementById('7').addEventListener('click',myFunction7);
+    document.getElementById('courses').style.visibility='visible';
+}
+function myFunction8(){
     window.open('https://instagram.com/nina_marion_/','_blank').focus();
 }
 // document.addEventListener('DOMContentLoaded', () => {
