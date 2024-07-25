@@ -145,7 +145,7 @@ function myBackFunction5(){
 }
 function myFunction6(){
     document.getElementById('events').style.visibility='hidden';
-    document.getElementById('6').style.backgroundImage="url('bilder/square61.png')";
+    document.getElementById('6').style.backgroundImage="url('bilder/square61.jpg')";
     document.getElementById('6').removeEventListener('click',myFunction6);
     
     document.getElementById('6').addEventListener('click',myBackFunction6);
@@ -160,7 +160,7 @@ function myBackFunction6(){
 
 function myFunction7(){
     document.getElementById('courses').style.visibility='hidden';
-    document.getElementById('7').style.backgroundImage="url('bilder/square71.png')";
+    document.getElementById('7').style.backgroundImage="url('bilder/square71.jpg')";
     document.getElementById('7').removeEventListener('click',myFunction7);
     
     document.getElementById('7').addEventListener('click',myBackFunction7);
