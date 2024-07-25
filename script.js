@@ -97,14 +97,21 @@ function myFunction3(){
     document.getElementById('3').style.backgroundImage="url('bilder/square31.jpg')";
     document.getElementById('3').removeEventListener('click',myFunction3);
     
-    document.getElementById('3').addEventListener('click',myBackFunction3);
+    document.getElementById('3').addEventListener('click',myMiddleFunction3);
 
 }
+function myMiddleFunction3(){
+    document.getElementById('name').style.visibility='hidden';
+    document.getElementById('3').style.backgroundImage="url('bilder/square32.jpg')";
+    document.getElementById('3').removeEventListener('click',myMiddleFunction3);
+    document.getElementById('3').addEventListener('click',myBackFunction3);
+}
 function myBackFunction3(){
+    document.getElementById('name').style.visibility='visible';
     document.getElementById('3').style.backgroundImage="url('bilder/square3.jpg')";
     document.removeEventListener('click',myBackFunction3);
     document.getElementById('3').addEventListener('click',myFunction3);
-    document.getElementById('name').style.visibility='visible';
+    
 }
 function myFunction4(){
     document.getElementById('sessions').style.visibility='hidden';
