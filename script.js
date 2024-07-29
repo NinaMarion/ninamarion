@@ -6,14 +6,14 @@ function adjustDivWidth() {
   
     // Check if width is greater than height
     if (screenWidth > screenHeight) {
-      // Get the div with id '1'
+      
       var cons = document.getElementsByClassName('container');
       var divs = document.getElementsByClassName('clickable');
       var divslength= divs.length;
       
       
       for (i=0; i<divslength;i++) {
-        // Set the width to 80vw
+        // Set the width to 67vw
         divs[i].style.width = '67vw';
         divs[i].style.height='67vw';
         divs[i].style.marginBottom='12vw';
@@ -52,19 +52,7 @@ document.getElementById('8').addEventListener('click',myFunction8);
 
 function myFunction1(){
     document.getElementById('1').style.backgroundImage="url('bilder/square11.jpg')";
-    // const t1= document.createTextNode('Insta: @nina_marion_');
-    // const t2= document.createTextNode('epost:nina@gmail.com');
-    // const t3= document.createTextNode('X: @Nina05334617');
     
-    // const layout= document.createElement('div');
-    // layout.style.justifyContent='space-between';
-    // document.getElementById(info).style.visibility='visible';
-    // document.getElementById(info).appendChild(t1);
-
-    // layout.appendChild(t2);
-    // layout.appendChild(t3);
-    
-    // document.getElementById('1').appendChild(layout);
     
     document.getElementById('1').removeEventListener('click',myFunction1);
     document.getElementById('1').addEventListener('click',myBackFunction1);
@@ -75,10 +63,6 @@ function myBackFunction1(){
     document.removeEventListener('click',myBackFunction1);
     document.getElementById('1').addEventListener('click',myFunction1);
 }
-// function myBackFunction1(){
-//     document.getElementById('1').removeEventListener('click',myFunction1);
-
-// }
 function myFunction2(){
     document.getElementById('classes').style.visibility='hidden';
     document.getElementById('2').style.backgroundImage="url('bilder/square21.jpg')";
@@ -109,11 +93,7 @@ function myMiddleFunction3(){
 }
 function myBackFunction3(){
     window.location.reload();
-    /*document.getElementById('name').style.visibility='visible';
-    document.getElementById('3').style.backgroundImage="url('bilder/square3.jpg')";
-    document.removeEventListener('click',myBackFunction3);
-    document.getElementById('3').addEventListener('click',myFunction3);
-    */
+   
 }
 function myFunction4(){
     document.getElementById('sessions').style.visibility='hidden';
@@ -175,15 +155,3 @@ function myBackFunction7(){
 function myFunction8(){
     window.open('https://instagram.com/nina_marion_/','_blank').focus();
 }
-// document.addEventListener('DOMContentLoaded', () => {
-//     document.querySelectorAll('.clickable').forEach(div => {
-//         div.addEventListener('click', (event) => {
-//             const clickedDiv = event.target;
-//             const divid = clickedDiv.getAtribute('id');
-//             // document.getElementById(divid).appendChild('h1'='text is comign here');
-//             // clickedDiv.style.backgroundImage="url('11.png')";
-//             document.getElementById(divid).style.height='100vh';
-
-//         });
-//     });
-// });
