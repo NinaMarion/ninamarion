@@ -72,17 +72,13 @@ function myFunction2(){
 
 }
 function myMiddleFunction2(){
-    document.getElementById('classes').style.visibility='hidden';
+    
     document.getElementById('2').style.backgroundImage="url('bilder/square22.jpg')";
     document.getElementById('2').removeEventListener('click',myMiddleFunction2);
     document.getElementById('2').addEventListener('click',myBackFunction2);
 }
 function myBackFunction2(){
-    /*document.getElementById('2').style.backgroundImage="url('bilder/square2.jpg')";
-    document.removeEventListener('click',myBackFunction2);
-    document.getElementById('2').addEventListener('click',myFunction2);
-    document.getElementById('classes').style.visibility='visible';
-    */
+    
    window.location.reload();
 }
 function myFunction3(){
