@@ -78,10 +78,12 @@ function myMiddleFunction2(){
     document.getElementById('2').addEventListener('click',myBackFunction2);
 }
 function myBackFunction2(){
-    document.getElementById('2').style.backgroundImage="url('bilder/square2.jpg')";
+    /*document.getElementById('2').style.backgroundImage="url('bilder/square2.jpg')";
     document.removeEventListener('click',myBackFunction2);
     document.getElementById('2').addEventListener('click',myFunction2);
     document.getElementById('classes').style.visibility='visible';
+    */
+   window.location.reload();
 }
 function myFunction3(){
     document.getElementById('name').style.visibility='hidden';
