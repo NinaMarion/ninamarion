@@ -73,7 +73,7 @@ function myFunction2(){
 }
 function myMiddleFunction2(){
     
-    document.getElementById('2').style.backgroundImage="url('bilder/square22.jpg')";
+    document.getElementById('2').style.backgroundImage="url('bilder/squarenorsk.jpg')";
     document.getElementById('2').removeEventListener('click',myMiddleFunction2);
     document.getElementById('2').addEventListener('click',myBackFunction2);
 }
